@@ -30,21 +30,21 @@ export default function Nav() {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           <Link 
-            href="#features" 
+            href="/features" 
             className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform animate-slide-in"
             style={{ animationDelay: '100ms' }}
           >
             Learn
           </Link>
           <Link 
-            href="#about" 
+            href="/mission" 
             className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform animate-slide-in"
             style={{ animationDelay: '200ms' }}
           >
             About
           </Link>
           <Link 
-            href="#resources" 
+            href="/downloads" 
             className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform animate-slide-in"
             style={{ animationDelay: '300ms' }}
           >
@@ -86,16 +86,17 @@ export default function Nav() {
       >
         <nav className="flex flex-col items-center justify-center h-full gap-8 px-4">
           {[
-            { href: '#features', label: 'Learn' },
-            { href: '#about', label: 'About' },
-            { href: '#resources', label: 'Resources' },
+            { href: '/features', label: 'Learn' },
+            { href: '/mission', label: 'About' },
+            { href: '/downloads', label: 'Resources' },
           ].map((link, i) => (
             <Link 
               key={link.href}
               href={link.href} 
               className={`text-2xl text-black font-ohno-softie font-normal hover:text-gray-600 transition-colors transform ${
                 isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
-              } transition-all duration-300 delay-[${i * 100}ms]`}
+              } transition-all duration-300`}
+              style={{ transitionDelay: `${i * 100}ms` }}
               onClick={() => setIsMenuOpen(false)}
             >
               {link.label}
@@ -105,7 +106,8 @@ export default function Nav() {
             href="https://play.google.com/store/apps/details?id=com.olchiki.learn"
             className={`flex items-center gap-3 px-8 py-4 bg-[#FFD600] text-black rounded-full hover:bg-[#FFD600]/90 font-ohno-softie text-xl transition-all transform ${
               isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
-            } duration-300 delay-300`}
+            } duration-300`}
+            style={{ transitionDelay: '300ms' }}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsMenuOpen(false)}

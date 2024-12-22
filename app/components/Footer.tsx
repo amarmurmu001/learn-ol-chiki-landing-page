@@ -9,25 +9,27 @@ export default function Footer() {
           <div className="animate-fade-up" style={{ animationDelay: '100ms' }}>
             <h3 className="font-bold text-2xl mb-6 font-ohno-softie">Learn Ol Chiki</h3>
             <div className="flex flex-col gap-4">
-              <Link href="#features" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Interactive Lessons</Link>
-              <Link href="#dictionary" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Dictionary</Link>
-              <Link href="#practice" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Practice Exercises</Link>
+              <Link href="/features" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Interactive Lessons</Link>
+              <Link href="/dictionary" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Dictionary</Link>
+              <Link href="/practice" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Practice Exercises</Link>
             </div>
           </div>
           <div className="animate-fade-up" style={{ animationDelay: '200ms' }}>
             <h3 className="font-bold text-2xl mb-6 font-ohno-softie">Resources</h3>
             <div className="flex flex-col gap-4">
-              <Link href="#history" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">History of Ol Chiki</Link>
-              <Link href="#community" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Community</Link>
-              <Link href="#downloads" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Downloads</Link>
+              <Link href="/history" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">History of Ol Chiki</Link>
+              <Link href="/community" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Community</Link>
+              <Link href="/downloads" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Downloads</Link>
             </div>
           </div>
           <div className="animate-fade-up" style={{ animationDelay: '300ms' }}>
             <h3 className="font-bold text-2xl mb-6 font-ohno-softie">About</h3>
             <div className="flex flex-col gap-4">
-              <Link href="#mission" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Our Mission</Link>
-              <Link href="#team" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Team</Link>
+              <Link href="/mission" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Our Mission</Link>
+              <Link href="/team" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Team</Link>
               <Link href="/privacy-policy" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Privacy Policy</Link>
+              <Link href="/terms" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Terms & Conditions</Link>
+              <Link href="/data-policy" className="text-gray-600 hover:text-black font-ohno-softie font-normal text-lg hover:scale-105 transition-transform">Data Policy</Link>
             </div>
           </div>
           <div className="animate-fade-up" style={{ animationDelay: '400ms' }}>

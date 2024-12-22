@@ -1,12 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Nav from './components/Nav'
-import Footer from './components/Footer'
 
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
-      <Nav />
+      
 
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-20 md:py-32 text-center relative">
@@ -156,7 +154,7 @@ export default function Page() {
         </div>
       </section>
 
-      <Footer />
+     
     </div>
   )
 }
