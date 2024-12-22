@@ -67,7 +67,7 @@ const PrivacyPolicy = () => {
               <li>Provide and improve our services</li>
               <li>Personalize your learning experience</li>
               <li>Send important updates and notifications</li>
-              <li>Analyze and enhance our platform's performance</li>
+              <li>Analyze and enhance our platform&apos;s performance</li>
             </ul>
           </div>
         </section>

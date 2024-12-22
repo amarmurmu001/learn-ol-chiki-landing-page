@@ -87,7 +87,7 @@ const Community = () => {
                 <div className="text-sm text-blue-600">Jan</div>
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2 font-ohno-softie">Beginner's Workshop</h3>
+                <h3 className="text-xl font-bold mb-2 font-ohno-softie">Beginner&apos;s Workshop</h3>
                 <p className="text-gray-600">Introduction to Ol Chiki script and basic writing practice.</p>
               </div>
             </div>

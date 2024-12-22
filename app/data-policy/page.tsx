@@ -24,10 +24,10 @@ const DataPolicy = () => {
             We use the information we collect to:
           </p>
           <ul className="list-disc ml-6 mt-2 text-gray-700 space-y-2">
-            <li>Provide, maintain, and improve our services</li>
-            <li>Process your transactions</li>
-            <li>Send you technical notices and support messages</li>
-            <li>Communicate with you about products, services, and events</li>
+            <li>Provide and improve our services</li>
+            <li>Personalize your learning experience</li>
+            <li>Send important updates and notifications</li>
+            <li>Analyze and enhance our platform&apos;s performance</li>
           </ul>
         </div>
 

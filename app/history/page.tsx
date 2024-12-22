@@ -64,7 +64,7 @@ const History = () => {
               </div>
             </div>
             <div>
-              <h2 className="text-2xl font-bold mb-4 font-ohno-softie">Modern Usage</h2>
+              <h2 className="text-2xl font-bold mb-4 font-ohno-softie">Today&apos;s Usage</h2>
               <p className="text-gray-700">
                 Today, Ol Chiki is widely used in education, literature, and digital communication. It continues to play a vital role in preserving and promoting Santali culture and heritage.
               </p>
@@ -78,7 +78,7 @@ const History = () => {
         <h2 className="text-3xl font-bold text-center mb-8 font-ohno-softie">Cultural Significance</h2>
         <div className="max-w-3xl mx-auto">
           <p className="text-gray-700 mb-4">
-            Ol Chiki script represents more than just a writing system - it's a symbol of Santali cultural identity and independence. The script was carefully designed to capture the unique sounds and expressions of the Santali language.
+            Ol Chiki script represents more than just a writing system - it&apos;s a symbol of Santali cultural identity and independence. The script was carefully designed to capture the unique sounds and expressions of the Santali language.
           </p>
           <p className="text-gray-700 mb-4">
             Each character in Ol Chiki has significance, often derived from natural shapes and objects familiar to Santali culture. This makes the script both practical and culturally meaningful.
