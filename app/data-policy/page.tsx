@@ -76,7 +76,7 @@ const DataPolicy = () => {
         <div>
           <h2 className="text-xl md:text-2xl font-semibold mb-4">7. Changes to This Policy</h2>
           <p className="text-gray-700">
-            We may update our Data Policy from time to time. We will notify you of any changes by posting the new Data Policy on this page and updating the "Last updated" date.
+            We may update our Data Policy from time to time. We will notify you of any changes by posting the new Data Policy on this page and updating the &quot;Last updated&quot; date.
           </p>
         </div>
       </section>

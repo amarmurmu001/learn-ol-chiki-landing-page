@@ -93,7 +93,7 @@ const History = () => {
       <div className="text-center">
         <h2 className="text-3xl font-bold mb-6 font-ohno-softie">Preserving Our Heritage</h2>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          By learning and using Ol Chiki, you're helping to preserve and promote the rich cultural heritage of the Santali people.
+          By learning and using Ol Chiki, you&apos;re helping to preserve and promote the rich cultural heritage of the Santali people.
         </p>
       </div>
     </div>
