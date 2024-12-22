@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'ohno-softie': ['var(--font-ohno-softie)'],
+      },
     },
   },
   plugins: [],
