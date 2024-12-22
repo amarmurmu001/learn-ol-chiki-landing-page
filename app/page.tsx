@@ -43,7 +43,7 @@ export default function Page() {
           >
             Start Learning
           </Link>
-          <p className="text-gray-500 font-ohno-softie text-xl">It's 100% free!</p>
+          <p className="text-gray-500 font-ohno-softie text-xl">It&apos;s 100% free!</p>
         </div>
 
         {/* Main Image */}
@@ -83,12 +83,12 @@ export default function Page() {
             },
             {
               title: "Word Games",
-              description: "Learning through play is always effective. Our word games challenge you to solve puzzles, match letters, and build words using the Ol Chiki script. It's an exciting way to stay motivated!",
+              description: "Learning through play is always effective. Our word games challenge you to solve puzzles, match letters, and build words using the Ol Chiki script. It&apos;s an exciting way to stay motivated!",
               icon: "🎮"
             },
             {
               title: "Translation Tool",
-              description: "Seamlessly translate words and phrases between Santali and other languages. Whether you're a beginner or an advanced learner, this tool simplifies communication and comprehension.",
+              description: "Seamlessly translate words and phrases between Santali and other languages. Whether you&apos;re a beginner or an advanced learner, this tool simplifies communication and comprehension.",
               icon: "🔄"
             }
           ].map((feature, i) => (
@@ -123,7 +123,7 @@ export default function Page() {
               },
               {
                 title: "Accessible Anytime",
-                description: "Whether you're on a smartphone or tablet, Learn Chiki is available wherever you are, making learning flexible and convenient."
+                description: "Whether you&apos;re on a smartphone or tablet, Learn Chiki is available wherever you are, making learning flexible and convenient."
               }
             ].map((feature, i) => (
               <div 
@@ -146,10 +146,10 @@ export default function Page() {
         </h2>
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-600 mb-12 font-ohno-softie font-normal text-xl md:text-2xl animate-fade-up animate-delay-100">
-            Learning Ol Chiki isn't just about mastering a script; it's about reconnecting with a heritage that deserves recognition in today's globalized world. Whether you're a part of the Santali community or an enthusiast of indigenous languages, Learn Chiki offers you an opportunity to contribute to the preservation and growth of this beautiful language.
+            Learning Ol Chiki isn&apos;t just about mastering a script; it&apos;s about reconnecting with a heritage that deserves recognition in today&apos;s globalized world. Whether you&apos;re a part of the Santali community or an enthusiast of indigenous languages, Learn Chiki offers you an opportunity to contribute to the preservation and growth of this beautiful language.
           </p>
           <p className="text-3xl md:text-4xl font-ohno-softie text-black mt-16 animate-fade-up animate-delay-200">
-            Let's celebrate diversity in communication and keep the spirit of Ol Chiki alive for generations to come!
+            Let&apos;s celebrate diversity in communication and keep the spirit of Ol Chiki alive for generations to come!
           </p>
         </div>
       </section>
