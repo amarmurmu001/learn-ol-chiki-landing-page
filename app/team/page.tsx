@@ -79,7 +79,7 @@ const Team = () => {
         <div className="max-w-4xl mx-auto text-center bg-gray-50 p-12 rounded-2xl">
           <h2 className="text-3xl font-bold mb-6 font-ohno-softie">Join Our Team</h2>
           <p className="text-xl text-gray-600 mb-8">
-            We're always looking for passionate individuals to join our mission of preserving and promoting Ol Chiki.
+            We&apos;re always looking for passionate individuals to join our mission of preserving and promoting Ol Chiki.
           </p>
           <div className="space-y-4">
             <button className="bg-blue-600 text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-blue-700 transition-colors">

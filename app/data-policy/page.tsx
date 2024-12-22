@@ -43,26 +43,28 @@ const DataPolicy = () => {
           </ul>
         </div>
 
-        <div>
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">4. Data Security</h2>
-          <p className="text-gray-700">
-            We implement appropriate technical and organizational measures to maintain the security of your personal information, including encryption and secure server storage.
-          </p>
-        </div>
+        <section>
+          <h2 className="text-3xl font-bold mb-6 font-ohno-softie">Data Security</h2>
+          <div className="bg-gray-50 p-8 rounded-2xl">
+            <p className="text-gray-700">
+              We implement appropriate technical and organizational measures to maintain the security of your personal information. This includes encryption, secure server storage, and regular security assessments.
+            </p>
+          </div>
+        </section>
 
-        <div>
-          <h2 className="text-xl md:text-2xl font-semibold mb-4">5. Your Rights</h2>
-          <p className="text-gray-700">
-            You have the right to:
-          </p>
-          <ul className="list-disc ml-6 mt-2 text-gray-700 space-y-2">
-            <li>Access your personal information</li>
-            <li>Correct inaccurate data</li>
-            <li>Request deletion of your data</li>
-            <li>Object to data processing</li>
-            <li>Data portability</li>
-          </ul>
-        </div>
+        <section>
+          <h2 className="text-3xl font-bold mb-6 font-ohno-softie">Your Rights</h2>
+          <div className="bg-gray-50 p-8 rounded-2xl space-y-4">
+            <p className="text-gray-700">You have the right to:</p>
+            <ul className="list-disc ml-6 space-y-2 text-gray-700">
+              <li>Access your personal data</li>
+              <li>Request corrections to your data</li>
+              <li>Delete your account and associated data</li>
+              <li>Opt-out of marketing communications</li>
+              <li>Request a copy of your data</li>
+            </ul>
+          </div>
+        </section>
 
         <div>
           <h2 className="text-xl md:text-2xl font-semibold mb-4">6. Cookies and Tracking</h2>

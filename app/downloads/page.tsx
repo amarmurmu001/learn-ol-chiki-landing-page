@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, Smartphone, Monitor, FileText, Keyboard } from 'lucide-react';
+import { Smartphone, Monitor, FileText, Keyboard } from 'lucide-react';
 
 const Downloads = () => {
   return (
